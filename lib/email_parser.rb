@@ -1,14 +1,14 @@
 
 
 class EmailParser
-  attr_accessor :parse
+  
 
 
-    def initialize(parse)
-      @parse = parse
+    def initialize(emails)
+      @emails = emails
     end
    
-    def self.parses_csv(emails)
+    def parses
       
       
     end 
